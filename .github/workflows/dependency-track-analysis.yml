@@ -19,7 +19,11 @@ jobs:
 
     strategy:
       matrix:
-        projectName: [ "app.hopps.org", "app.hopps.az-document-ai", "app.hopps.fin" ]
+        projectName:
+          - "app.hopps.org"
+          - "app.hopps.az-document-ai"
+          - "app.hopps.fin"
+          - "app.hopps.fin-narrator"
 
     steps:
       # Checkout the code

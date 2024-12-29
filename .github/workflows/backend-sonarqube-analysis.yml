@@ -29,6 +29,9 @@ jobs:
           - key: "hopps-app_hopps-fin"
             folder: "app.hopps.fin"
             label: "Finanzen"
+          - key: "hopps-app_fin-narrator"
+            folder: "app.hopps.fin-narrator"
+            label: "FIN-Narrator"
 
     steps:
       - uses: actions/checkout@v4
