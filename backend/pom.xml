@@ -50,6 +50,7 @@
         <module>app.hopps.az-document-ai</module>
         <module>app.hopps.zugferd</module>
         <module>app.hopps.commons</module>
+        <module>app.hopps.mailservice</module>
     </modules>
 
     <build>
